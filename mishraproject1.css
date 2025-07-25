@@ -21,16 +21,16 @@ h1 {
     width:90vw;
 }
 #parrent{
-    height:100%;
-    width:100%;
+    height:100vh;
+    width:100vw;
     background-color:#eeca9f;
     display:flex;
    
 }
 
 #child{
-    width:100%;
-    height:10%;
+    width:100vw;
+    height:10vh;
     background-color:#3f3434;
      display:flex;
      justify-content:flex-end ;
