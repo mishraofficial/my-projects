@@ -219,41 +219,55 @@ h1 {
     
     /* Adjusting heading font size for smaller screens */
     h1 {
-        font-size: 12vw; 
+        font-size: 9vw; 
     }
 
     /* Centering the top right text and icon */
+    
     #child h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
         right: 50%;
-        top: 4%;
+        top: 8%;
         transform: translateX(50%);
     }
 
     #child img {
-        display: none; /* Hiding image as it might clutter the small screen */
+        width: 40px; /* Smaller icon size */
+        height: 40px;
+        right: 55%;
+        top: 5%;
     }
 
     /* Making menu responsive */
     .menu ul {
-        left: 50%; /* Corrected positioning for centering */
-        transform: translateX(-50%);
-        gap: 15px; /* Reducing gap between menu items */
-        padding: 8px 15px;
-        top: 15px;
+        list-style: none;
+  display: flex;
+  gap: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  justify-content: flex-start;
+  padding: 8px 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0;
+    position: absolute;
+    top: 39;
+    left: 15px; /* This might be an error, usually it's 50% for centering */
+    transform: translateX(-50%);
+    
     }
     
     .menu ul li a {
-        font-size: 0.8rem; /* Smaller font for menu links */
+        font-size: rem; /* Smaller font for menu links */
     }
 
     /* Making login/signup buttons responsive */
     #mychild {
         width: 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+        justify-content:flex-end;
+        align-items:flex-start;
+        gap: 0px;
     }
 
     #my, #my2 {
@@ -278,25 +292,36 @@ h1 {
 
     /* Adjusting footer elements */
     #child6 {
-        height: auto;
+        height: 12%;
         padding: 20px 0;
         flex-direction: column; /* Stacking items vertically */
         gap: 15px;
     }
 
-    #bhulgaya, #bhulgayahu {
-        position: static; /* Removing absolute position */
-        text-align: center;
+    #bhulgaya {
+
     }
+    
+    
+    #bhulgayahu {
+        
+        display: flex;
+        position: absolute;
+        top: 70%;
+        justify-content: flex-end;
+       font-size:0.7rem ;
     
     /* Grouping and centering footer icons */
     #tatti, #tatti1, #tatti2 {
-        position: static;
-        display: inline-block; /* Displaying icons in a line */
-        margin: 0 10px;
+         position: static;
+        display: inline-block;
+        margin: 0 10px; /* 10px gap on left and right of each icon */
+        vertical-align: middle; /* keeps them aligned */
+        width: 2%;
+        height:3% ;
     }
     
-    /* Hiding elements that may not be needed or cause clutter */
+    
     #tatti {
       display: none;
     }
