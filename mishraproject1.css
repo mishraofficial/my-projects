@@ -146,10 +146,10 @@ h1 {
 }
 #tatti{
 
-    width:50px;
+    width:50;
     height: 50px;
     position: absolute;
-    left: 83%;
+    left: 87%;
     top:20% ;
 
 }
@@ -164,11 +164,11 @@ h1 {
 }
 #tatti2{
 
-    width:30px;
-    height: 30px;
+    width:38px;
+    height: 38px;
     position: absolute;
-    left: 89%;
-    top:30% ;
+    left: 83.6%;
+    top:26% ;
 
 }
 #faltu{
@@ -433,8 +433,40 @@ h1 {
     #bhulgaya {
 
     }
+#unique88 {
+    position: absolute;
+    top: 58%;
+    left: 45%;
+   
+    height:3.5vw;
+   
+}
+#unique55 {
+  
+    height:3.5vw;
     
+}
+
+    #unique3 {
+   
+    width: 20vw;
+    height:3vw;
     
+   
+}
+    #unique99 {
+   
+    width: 20vw;
+    height:3vw;
+  
+   
+}
+    #unique44 {
+   
+    width: 20vw;
+    height:3vw;
+  
+}
     #bhulgayahu {
         
         display: flex;
@@ -442,6 +474,7 @@ h1 {
         top: 70%;
         justify-content: flex-end;
        font-size:0.7rem ;
+    }
     
     /* Grouping and centering footer icons */
     #tatti, #tatti1, #tatti2 {
@@ -455,4 +488,4 @@ h1 {
     #tatti {
       display: none;
     }
-}
+    }
