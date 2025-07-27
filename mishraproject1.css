@@ -1,0 +1,491 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body{
+    width:100%;
+    height:100%;
+    
+}
+h1 {
+    font-size: 9vw ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    text-align: center;
+    letter-spacing: 0.08em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:90vw;
+}
+#parrent{
+    height:100%;
+    width:100%;
+    background-color:#eeca9f;
+    display:flex;
+   
+}
+
+#child{
+    width:100%;
+    height:10%;
+    background-color:#3f3434;
+     display:flex;
+     justify-content:flex-end ;
+
+}
+#child h3 {
+    color: #f0b5b5;
+    font-size:1.2rem;
+    text-align: center; 
+    position: absolute; 
+    right: 46.5%;
+    top: 3.5%; 
+    transform: translate(-10%,-1%);  
+    font-family:fantasy;   
+    font-weight:900; /* 'px' unit is not valid for font-weight */
+   
+}
+#child img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 55%;
+    top: 2%;
+}
+
+#mychild{
+    width:16%;
+    height:10%;
+    background-color:#3f3434;
+    position: absolute;
+   
+}
+
+#my{
+     
+    font-weight: 200;
+     font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+     color:white;
+    background-color:rgb(255, 88, 49);
+    position: absolute;
+    margin-top:10% ;
+    margin-left:105px;
+    width:60px ;
+    height: 35px;
+}
+#my2{
+     
+ font-weight: 200;
+     font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    
+     color:rgb(0, 0, 0);
+    background-color:rgb(253, 251, 248);
+    position: absolute;
+    margin-top:10% ;
+    margin-left:40px;
+    width:60px ;
+    height: 35px;
+   
+    
+}
+#my, #my2 {
+    border-radius: 20px;
+    width: 65px;
+    height: 35px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 0;
+    position: absolute;
+    top: 20px;
+    left: 10%; /* This might be an error, usually it's 50% for centering */
+    transform: translateX(-50%);
+    
+}
+.menu ul li a {
+     color: black; 
+     font-family:Verdana, Geneva, Tahoma, sans-serif;  
+     font-weight: 600;
+     text-decoration: none;
+}
+
+#child6{
+    width: 100%;
+    height: 15%;
+    background-color: #644141;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+#bhulgaya{
+    position: absolute;
+    left: 5%;
+    top:60%;
+}
+#bhulgayahu{
+    position: absolute;
+    left: 80%;
+     top:60%;
+    
+}
+#tatti{
+
+    width:50;
+    height: 50px;
+    position: absolute;
+    left: 87%;
+    top:20% ;
+
+}
+#tatti1{
+
+    width:30px;
+    height: 30px;
+    position: absolute;
+    left: 79.4%;
+    top:30% ;
+
+}
+#tatti2{
+
+    width:38px;
+    height: 38px;
+    position: absolute;
+    left: 83.6%;
+    top:26% ;
+
+}
+#faltu{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure it appears above other elements */
+    border-radius: 20%;
+    object-fit: cover;
+}
+.wow1 {
+
+    font-size: 30px;
+    color: #000000;
+      font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    text-align: center;
+    letter-spacing: 0.08em;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    width:90vw;
+
+}
+.wow2 { 
+    font-size: 30px;
+    color: #000000;
+      font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    text-align: center;
+    letter-spacing: 0.08em;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width:90vw;
+}
+#unique {   width:100%;
+    height:100%;
+    background-color:#3f3434;
+
+}
+
+#unique1 {
+    width:24vw;
+    height:45vw;
+    background-color:#eeca9f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    
+}
+#unique2 {
+   font-size: 3vw;
+   position: absolute;
+    top:10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+#unique3 {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    width: 20vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: blue;
+}
+#k {
+    width:7vw;
+    height: 7vw;
+    position: absolute;
+    left: 35%;
+    top: 17%;
+    
+}
+#unique4 {
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    width: 20vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: blue;
+}
+#unique5 {
+    position: absolute;
+    top: 53%;
+    left: 29%;
+    width: 10vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+#unique00 {  
+     width:100%;
+    height:100%;
+    background-color:#3f3434;
+}
+#unique11 {
+    width:24vw;
+    height:45vw;
+    background-color:#eeca9f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    
+}
+#unique22 {
+   font-size: 3vw;
+   position: absolute;
+    top:10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+#unique44 {
+    position: absolute;
+    top: 53%;
+    left: 10%;
+    width: 20vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: blue;
+}
+#unique99 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: 20vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: blue;
+}
+#unique55 {
+    position: absolute;
+    top: 64%;
+    left: 29%;
+    width: 10vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+}
+#unique66 {
+    position: absolute;
+    top: 64%;
+    left: 29%;
+    width: 10vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+}
+#unique88 {
+    position: absolute;
+    top: 69%;
+    left: 45%;
+    width: 10vw;
+    height:2.5vw;
+    border-radius: 5px;
+    border-color: rgb(21, 0, 255);
+}
+
+/* ================================================= */
+/* ===== Responsive Code for Mobile Phones 📱 ===== */
+/* ================================================= */
+
+@media (max-width: 768px) {
+    
+    /* Adjusting heading font size for smaller screens */
+    h1 {
+        font-size: 9vw; 
+    }
+
+    /* Centering the top right text and icon */
+    
+    #child h3 {
+        font-size: 1.2rem;
+        right: 50%;
+        top: 4%;
+        transform: translateX(50%);
+          z-index:10 ;
+    }
+
+    #child img {
+        width: 40px; /* Smaller icon size */
+        height: 40px;
+        right: 58%;
+        top: 3%;
+        z-index:10 ;
+    
+    }
+
+    /* Making menu responsive */
+    .menu ul {
+        list-style: none;
+  display: flex;
+  gap: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  justify-content: flex-start;
+  padding: 8px 15px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0;
+    position: absolute;
+    top: 39;
+    left: 55px; /* This might be an error, usually it's 50% for centering */
+   z-index:10 ;
+    
+    }
+    
+    .menu ul li a {
+        font-size: 0.6rem; /* Smaller font for menu links */
+        font-variant-position: fr;
+    }
+
+    /* Making login/signup buttons responsive */
+    #mychild {
+        width: 100%;
+        display: flex;
+        justify-content:flex-end;
+        align-items:flex-start;
+        gap: 0px;
+    }
+
+    #my, #my2 {
+        position: static; /* Removing absolute position */
+        margin: 0;
+        margin-top: 20px; /* Adding some top margin */
+        transform: none;
+    }
+
+
+    /* Adjusting central image size */
+    #faltu {
+        width: 60vw;
+        height: 60vw;
+    }
+
+    /* Adjusting text font sizes */
+    .wow1, .wow2 {
+        font-size: 5vw;
+        width: 90vw;
+    }
+
+    /* Adjusting footer elements */
+    #child6 {
+        height: 12%;
+        padding: 20px 0;
+        flex-direction: column; /* Stacking items vertically */
+        gap: 15px;
+    }
+
+    #bhulgaya {
+
+    }
+#unique88 {
+    position: absolute;
+    top: 58%;
+    left: 45%;
+   
+    height:3.5vw;
+   
+}
+#unique55 {
+  
+    height:3.5vw;
+    
+}
+
+    #unique3 {
+   
+    width: 20vw;
+    height:3vw;
+    
+   
+}
+    #unique99 {
+   
+    width: 20vw;
+    height:3vw;
+  
+   
+}
+    #unique44 {
+   
+    width: 20vw;
+    height:3vw;
+  
+}
+    #bhulgayahu {
+        
+        display: flex;
+        position: absolute;
+        top: 70%;
+        justify-content: flex-end;
+       font-size:0.7rem ;
+    }
+    
+    /* Grouping and centering footer icons */
+    #tatti, #tatti1, #tatti2 {
+        position: static;
+        display: inline-block;
+        margin: 10px 10px; /* This gives 10px gap on left and right */
+        vertical-align: middle; /* keeps them aligned */
+    }
+    
+    /* Hiding elements that may not be needed or cause clutter */
+    #tatti {
+      display: none;
+    }
+    }
