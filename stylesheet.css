@@ -237,3 +237,21 @@ html, body{
 #a i{
     color: rgb(186, 65, 59);
 }
+#cv{
+    position: absolute;
+    left:20%;
+    top:93%;
+    border: none !important;
+    background-color: transparent;
+    color: rgb(136, 110, 100);
+    outline: #ffffff;
+}
+#cb{
+    position: absolute;
+    left:10%;
+    top:93%;
+    border: none !important;
+    background-color: transparent;
+    color: rgb(138, 126, 122);
+    outline: #ffffff;
+}
